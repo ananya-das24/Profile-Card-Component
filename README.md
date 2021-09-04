@@ -3,7 +3,7 @@
 
 Desktop version
 
-![desktop version](Screenshot/ss.png)
+![desktop version](Screenshot/ss_profilecard.png)
 
 ### Links
 
