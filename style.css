@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+/* ############## Clearing-defaults ########### */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 18px;
+}
+body {
+  color:  hsl(227, 10%, 46%);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+}
+/* ##################### div-container styling ################### */
+.bg {
+  background:  hsl(185, 75%, 39%);
+}
+.container {
+  background: url("./images/bg-pattern-bottom.svg") bottom -600px right -150px,
+                    url("./images/bg-pattern-top.svg") top -500px left -200px ;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.card {
+  background-image: url(./images/bg-pattern-card.svg);
+  width: 350px;
+  border: none;
+  border-radius: 15px;
+}
+
+.profile {
+  background-color: white;
+  border: none;
+  border-radius: 0 0 15px 15px;
+  margin-top: 30px;
+  padding-top: 80px;
+  font-size: 0.75rem;
+}
+
+.stats {
+  border-top: 1px solid rgb(223, 220, 220);
+  display: flex;
+  font-size: 0.5rem;
+  letter-spacing: 2px;
+  justify-content: space-evenly;
+  padding: 25px 0;
+  margin-top: 30px;
+}
+
+h1,h2 {
+  color:hsl(229, 23%, 23%);
+  font-size: 1rem;
+  letter-spacing: normal;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+bold {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+
+img {
+  border: 5px solid white;
+  border-radius: 50%;
+  position: relative;
+  top: 85px;
+}
+
+
+/* ###################### footer-styling ################### */
+.footer{
+    position: absolute;
+    bottom: 0;
+    font-size: 0.75rem;
+    line-height: 18px;
+    text-align: center;
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-bottom: 10px;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, 0.856);
+    font-weight: bold;
+  }
+  
+  .footer a:hover {
+    color: hsl(202, 58%, 40%);
+  }
